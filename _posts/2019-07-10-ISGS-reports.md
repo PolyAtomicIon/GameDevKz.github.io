@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Наши старания
+author: yerulan
 ---
 ![_config.yml]({{ site.baseurl }}/images/2019-07-10-ISGS-reports/image1.jpg)
 Команда ISGS начнет первой \

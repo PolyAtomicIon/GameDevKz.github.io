@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Post Here!!!
+author: akylzhan
 ---
 
 Добро пожаловать на наш блог
