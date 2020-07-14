@@ -3,13 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+We are students from Kazakhstan who are interested in gamedev. Most of us are programmers but there are cool artists
 
-Some information about you!
+### Contacts
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[Telegram Group](https://t.me/game_dev_sig)
