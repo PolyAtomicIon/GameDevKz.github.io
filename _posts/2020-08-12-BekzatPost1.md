@@ -3,7 +3,7 @@ layout: post
 title: PolyPon - начало и управление
 author: Bekzat
 ---
-<!-- ![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/image1.jpg) -->
+<!-- ![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/image1.jpg) -->
     Долгожданный второй пост!
 
     Салем всем, я СДУшник, как то тут оказался) 
@@ -20,21 +20,21 @@ author: Bekzat
 
     Идея: Падает объект и нужно ее крутить чтобы она влезла в дырку 
 ### Ideas
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/idea1.jpg)
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/idea2.jpg)
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/idea3.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/idea1.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/idea2.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/idea3.jpg)
 
     Похожие игры мы конечно поиграли: Fluffy Fall (падение), Polysphere (повороты объекта)
 
     Кстати, мы хотели еще и добавить передвижение, но поняли что это будет лишним и игроку будет 
 сложно войти в состояние потока
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/demo1.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/demo1.gif)
 ### Demo with movement
 
     Написал демку, ничего сложного (рис. 1)
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/demo1.2.gif)	
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/demo1.2.gif)	
 
 ### Demo
 
@@ -45,14 +45,14 @@ author: Bekzat
     Но блин, вариант с джойстиком менеджеру не понравился  и решили добавить“swipe” (далее свайп, 
 свайп-механика) механику. При свайпе объект должен был поворачивать на 90 градусов. Вроде бы ничего сложного, достал готовые скрипты для свайпа (не помню откуда, вероятнее всего с ассет стора) и прикрутил нашу свайп-механику.
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/demo2.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/demo2.gif)
 ### Demo2
 
     Билд на андроид. Запуск. И понимаю, что у меня проблемы. Так как объект в 3д пространстве и было
 не очевидно как крутить объект, ведь под различными градусами он крутился по разному. 
 После этого была попытка заговнокодить один вариант, все работало, но не совсем интуитивно.
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/swipe_gcode.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/swipe_gcode.gif)
 ### (можно было с вертикальной позиций “лечь на бок”)
 
     Код прикрепляю, Осторожно! - https://ideone.com/54Nk7Z
@@ -60,24 +60,24 @@ author: Bekzat
     После этого, мы временно остановились на свайп механике на 90 градусов, пока я примерно не
 понял, что на самом деле хотел менеджер. Он просил механику поворота как в игре Polysphere, я играл в нее и почему то совершенно по другому, видел конечную цель и внедрял ее в нашу игру не совсем так как он хотел, из-за этого мы потеряли много времени. 
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/polysphere.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/polysphere.gif)
 
     Написать такую же механику вроде не сложно, а на деле оказалось все не так то просто. Я даже 
 начал пихать идею с джойстиком. 
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/new_mech_joystick.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/new_mech_joystick.gif)
 
     Спрашивал во всяких форумах, гуглил по несколько раз, брал готовые решения, изменял их…
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/asking_q.jpg)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/asking_q.jpg)
 
     Почти...
     
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/new_mech_demo1.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/new_mech_demo1.gif)
 
     В итоге написал какой то говнокод, чтобы хоть как то работало. 
 
-![_config.yml]({{ site.baseurl }}/images/Bekzat-part-1/final.gif)
+![_config.yml]({{ site.baseurl }}/images/2020-08-12-BekzatPost1/final.gif)
 ### Final version
 
     На данный момент проект в стадии тестирования, решается вопрос с управлением...
